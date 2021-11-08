@@ -6,9 +6,7 @@ import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.geometry.Point2D;
-import javafx.scene.control.Alert;
-import javafx.scene.control.ButtonType;
-import javafx.scene.control.Label;
+import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
@@ -46,6 +44,10 @@ public class HelloController implements Initializable {
     public Pane insertedDiscPane;
     @FXML
     public Label playerNameLabel;
+    @FXML
+    public TextField playerOneTextField, playerTwoTextField;
+    @FXML
+    public Button setNamesButton;
 
     private boolean isAllowedToInsert = true;
 
@@ -55,6 +57,12 @@ public class HelloController implements Initializable {
     }
 
     public void createPlayground() {
+
+        setNamesButton.setOnAction(event ->
+        {
+            PLAYER_ONE = playerOneTextField.getText();
+            PLAYER_TWO = playerTwoTextField.getText();
+        });
 
         Shape rectangleWithHoles = createGameStructuralGrid();
         rootGridPane.add(rectangleWithHoles, 0, 1);
