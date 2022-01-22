@@ -25,7 +25,7 @@ function App() {
       #shinobi,
       footer`, {
         opacity: 0,
-        interval: 300,
+        interval: 700,
       }
     )
   }, [])

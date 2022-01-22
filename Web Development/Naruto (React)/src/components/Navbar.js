@@ -99,7 +99,7 @@ const Nav = styled.nav`
     }
 
     /* @media screen and (min-width: 426px) and (max-width: 1080px) { */
-        @media (max-width: 500px) {
+        @media (max-width: 550px) {
         .brand {
             display: flex;
             justify-content: space-between;

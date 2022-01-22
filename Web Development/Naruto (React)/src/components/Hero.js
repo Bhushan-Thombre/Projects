@@ -14,9 +14,10 @@ function Hero() {
                     <p>
                         Naruto Uzumaki is a young ninja who seeks recognition 
                         from his peers and dreams of becoming the Hokage, the leader 
-                        of his village. Naruto is the fourth best-selling manga series in history having 
+                        of his village. 
+                        {/* Naruto is the fourth best-selling manga series in history having 
                         250 million copies in circulation worldwide in 47 countries and regions, 
-                        with 153 million copies in Japan alone and remaining 97 million copies elsewhere.
+                        with 153 million copies in Japan alone and remaining 97 million copies elsewhere. */}
                     </p>
                 </div>
                 <div className="info">
