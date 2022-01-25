@@ -13,7 +13,7 @@ function App() {
     const sr = scrollreveal({
       origin: "top",
       distance: "80px",
-      duration: 2000,
+      duration: 3000,
       reset: true,
     });
     sr.reveal(
@@ -24,8 +24,8 @@ function App() {
       #village,
       #shinobi,
       footer`, {
-        opacity: 0,
-        interval: 700,
+        opacity: 1,
+        interval: 400,
       }
     )
   }, [])

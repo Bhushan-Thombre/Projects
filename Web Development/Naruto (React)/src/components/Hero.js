@@ -115,7 +115,7 @@ const Section = styled.section`
             }
             .info {
                 flex-direction: column;
-                padding: 0.8rem;
+                padding: 1rem;
                 gap: 0.8rem;
                 .container {
                     padding: 0 0.8rem;
