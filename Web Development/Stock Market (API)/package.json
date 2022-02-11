@@ -18,5 +18,8 @@
   },
   "dependencies": {
     "express-handlebars": "^6.0.2"
+  },
+  "engines": {
+    "node": "16.13.2"
   }
 }
