@@ -3,6 +3,6 @@ module com.game.connectfour.connect4 {
     requires javafx.fxml;
 
 
-    opens com.game.connectfour to javafx.fxml;
-    exports com.game.connectfour;
+    opens com.game.connectfour.connect4 to javafx.fxml;
+    exports com.game.connectfour.connect4;
 }
