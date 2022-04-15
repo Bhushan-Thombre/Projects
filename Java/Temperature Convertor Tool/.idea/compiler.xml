@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Main" />
+        <module name="Temperature Convertor Tool" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Main" target="15" />
+      <module name="Temperature Convertor Tool" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
