@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Naruto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village.
 
-## Available Scripts
+As a great fan of anime and Naruto, I have made this project to practice web development using React.
 
-In the project directory, you can run:
+It is a simple website of Naruto which is completely responsive and made using React and styled components that also contain scroll animations implemented using ScrollReveal JavaScript library.
 
-### `npm start`
+The website contains many sections like the Navbar, Home, Clans, Villages and Shinobi. The motivation behind building the project was to practice making different reusable react components for each section.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The wesite is deployed using Netlify. Click the link below to view the website.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<a href="https://zealous-saha-286121.netlify.app/">Click here to view the Website</a>
 
-### `npm test`
+### Naruto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+  <img src="Naruto.png" />
+</p>
 
-### `npm run build`
+### Connect With Me
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<span>LinkedIn - </span><a href="https://www.linkedin.com/in/bhushan-thombre-209910207/">Click Here</a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<span>Twitter - </span><a href="https://twitter.com/bhushanat11">Click Here</a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<span>GitHub - </span><a href="https://github.com/Bhushan-Thombre">Click Here</a>
