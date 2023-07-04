@@ -73,9 +73,9 @@ kubectl apply -f frontend.yaml
 All the deployments will start on the appropriate ports.
 
 <p align='center'>
-    <img src='./Screenshot1.png'>
+    <img src='./Image1.png'>
 </p>
 
 <p align='center'>
-    <img src='./Screenshot.png'>
+    <img src='./Image.png'>
 </p>

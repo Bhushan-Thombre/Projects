@@ -14,7 +14,7 @@
 - edukan-client
 - edukan-server
 
-## ## Creating the build and starting the services with appropriate configurations
+## Creating the build and starting the services with appropriate configurations
 
 - Create docker network
 
