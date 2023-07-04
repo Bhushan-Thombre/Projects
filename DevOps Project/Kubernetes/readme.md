@@ -14,7 +14,7 @@
 - edukan-client-k8s
 - edukan-server-k8s
 
-## ## Deploying the mern application
+## Deploying the mern application
 
 - Create internal service for mongodb
 

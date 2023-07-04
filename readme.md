@@ -18,3 +18,8 @@ This repository contains basic, intermediate and advanced level projects made fo
 - Several JavaScript Projects
 - Naruto Web Application
 - Stock Market App
+
+## DevOps
+
+- Contanerized a Microservice Application by creating images using Dockerfile and running as well as managing containers using docker-compose.
+- Deploying the application over a Kubernetes cluster.
