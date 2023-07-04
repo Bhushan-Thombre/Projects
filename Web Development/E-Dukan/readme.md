@@ -4,9 +4,6 @@ eDukan is a dummy e-commerce marketplace that contains a wide range of electroni
 
 The web application is completely made using the MERN stack, i.e., frontend using React.js and backend using Node.js, Express.js and MongoDB. The local state of the application components is maintained using React Hooks while Redux is used for managing and maintaining global state of the application.
 
-The website is deployed using Heroku
-<a href="https://e-dukan-jade.vercel.app/">Click here to view the Website</a>
-
 ## Key Features
 
 - Full featured shopping cart
@@ -26,7 +23,11 @@ The website is deployed using Heroku
 ## eDukan
 
 <p align='center'>
-    <img src='./screenshot/Screenshot.png'>
+    <img src='./screenshot/Photo.png'>
+</p>
+
+<p align='center'>
+    <img src='./screenshot/Screenshot 1.png'>
 </p>
 
 ## App Walkthrough

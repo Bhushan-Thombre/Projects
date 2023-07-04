@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-deployment
+  labels:
+    app: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+        - name: backend
+          image: tbhushan/edukan_server_k8s:1.0
+          ports:
+            - containerPort: 5000
+          env:
+            - name: NODE_ENV
+              valueFrom:
+                configMapKeyRef:
+                  name: backend-configmap
+                  key: dev
+            - name: PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: backend-configmap
+                  key: port
+            - name: MONGO_URI
+              valueFrom:
+                configMapKeyRef:
+                  name: backend-configmap
+                  key: uri
+            - name: JWT_SECRET
+              valueFrom:
+                configMapKeyRef:
+                  name: backend-configmap
+                  key: jwt
+            - name: PAYPAL_CLIENT_ID
+              valueFrom:
+                configMapKeyRef:
+                  name: backend-configmap
+                  key: paypal

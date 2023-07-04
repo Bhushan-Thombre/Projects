@@ -1,0 +1,65 @@
+version: '1.0'
+services:
+
+  mongodb:
+    image: mongo
+    container_name: eDukan-mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - data-volume:/data/db
+    networks:
+      - eDukan-network
+  
+  mongo-express:
+    image: mongo-express
+    restart: always
+    container_name: eDukan-mongo-express
+    ports:
+      - 8080:8081
+    environment:
+      - ME_CONFIG_MONGODB_SERVER=mongodb
+    networks:
+      - eDukan-network
+  
+  server:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: edukan-server
+    container_name: eDukan-server-k8s
+    ports:
+      - 5000:5000
+    depends_on:
+      - mongodb
+    env_file: ./backend/dev.env
+    volumes:
+      - ./backend:/eDukan
+      - /eDukan/node_modules
+    networks:
+      - eDukan-network
+  
+  client:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: edukan-client
+    container_name: eDukan-client-k8s
+    ports:
+      - 3000:3000
+    depends_on:
+     - server
+    volumes:
+      - ./frontend:/eDukan
+      - /eDukan/node_modules
+    networks:
+      - eDukan-network
+
+networks:
+  eDukan-network:
+    driver: bridge
+
+volumes:
+  data-volume:
+  node_modules:
+    driver: local
