@@ -12,4 +12,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD [ "npm", "run", "server" ]
+CMD sh -c "npm run data:import && npm run server"
