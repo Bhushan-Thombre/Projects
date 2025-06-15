@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: tbhushan/edukan_server_k8s:1.0
+          image: tbhushan/edukan_server_k8s:2.0
           ports:
             - containerPort: 5000
           env:
