@@ -32,16 +32,16 @@ spec:
                   key: port
             - name: MONGO_URI
               valueFrom:
-                configMapKeyRef:
-                  name: backend-configmap
+                secretKeyRef:
+                  name: backend-secret
                   key: uri
             - name: JWT_SECRET
               valueFrom:
-                configMapKeyRef:
-                  name: backend-configmap
+                secretKeyRef:
+                  name: backend-secret
                   key: jwt
             - name: PAYPAL_CLIENT_ID
               valueFrom:
-                configMapKeyRef:
-                  name: backend-configmap
+                secretKeyRef:
+                  name: backend-secret
                   key: paypal
